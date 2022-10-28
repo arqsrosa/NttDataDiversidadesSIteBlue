@@ -5,13 +5,14 @@ body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .wrapper {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(27, 68, 181);
 }
 .main {
     display: flex;
@@ -20,7 +21,7 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(85, 104, 157);
     padding: 10px 20px 0px;
 }
 .header {
@@ -35,11 +36,26 @@ body {
     color: white;
 }
 .content {
+    position: relative;
     background-color: white;
     min-height: 940px;
-    padding: 10px ;
+    padding: 20px ;
 }
+.saude {
+    display: inline-block;
+    vertical-align: top;
+    width: 450px;
+}
+.plano {
+    position: absolute;
+    top: 10px;
+	right: 10%;
+    width: 30%;
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color: rgb(27, 68, 181);
+    padding-top: 10px;
+    text-align: center;
+    
 }
